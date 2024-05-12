@@ -1,0 +1,114 @@
+:root {
+    --main-border-color: #622baa;
+    --border-width: 0.4em;
+    --border-type: solid;
+}
+
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 0px solid #7e7979;
+    /*For testing the grid*/
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.gameover {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 4em;
+    color: #341165;
+    z-index: 999;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    /* border: 5px solid black; */
+    width: 100vw;
+    /* background: springgreen; */
+    backdrop-filter: blur(15px);
+}
+
+.cross-circle {
+    vertical-align: text-top;
+}
+
+.box:hover {
+    background-color: #e0d2ff;
+}
+
+#row1 {
+    display: flex;
+}
+
+#row2 {
+    display: flex;
+}
+
+#row3 {
+    display: flex;
+}
+
+.base {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    /*border: #e0d2ff 10px solid;*/
+}
+
+#box1 {
+
+    border-right: var(--border-width) var(--border-type) var(--main-border-color);
+    border-bottom: var(--border-width) var(--border-type) var(--main-border-color);
+    border-top-left-radius: 10px;
+}
+
+#box2 {
+    border-right: var(--border-width) var(--border-type) var(--main-border-color);
+    border-bottom: var(--border-width) var(--border-type) var(--main-border-color);
+
+}
+
+#box3 {
+    border-bottom: var(--border-width) var(--border-type) var(--main-border-color);
+    border-top-right-radius: 10px;
+}
+
+#box4 {
+    border-right: var(--border-width) var(--border-type) var(--main-border-color);
+    border-bottom: var(--border-width) var(--border-type) var(--main-border-color);
+}
+
+#box5 {
+    border-right: var(--border-width) var(--border-type) var(--main-border-color);
+    border-bottom: var(--border-width) var(--border-type) var(--main-border-color);
+}
+
+#box6 {
+    border-bottom: var(--border-width) var(--border-type) var(--main-border-color);
+}
+
+#box7 {
+    border-right: var(--border-width) var(--border-type) var(--main-border-color);
+    border-bottom-left-radius: 10px;
+}
+
+#box8 {
+    border-right: var(--border-width) var(--border-type) var(--main-border-color);
+
+}
+
+#box9 {
+    border-bottom-right-radius: 10px;
+}
